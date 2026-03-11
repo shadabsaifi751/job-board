@@ -21,27 +21,6 @@ This responsive, modern Dynamic Job Board is built using **Next.js (Pages Router
    npm run build
    ```
 
-## Deployment Guidelines
-
-### Vercel (Recommended)
-
-You can deploy this application securely via [Vercel](https://vercel.com).
-
-1. Push this repository to GitHub.
-2. Go to your Vercel dashboard and click "Add New Project" -> "Import from Git".
-3. Select your repository. Vercel will automatically detect that this is a **Vite** project.
-4. Leave the default build command (`npm run build`) and output directory (`dist`).
-5. Click **Deploy**.
-
-### Netlify
-
-1. Push to GitHub.
-2. Go to Netlify -> "Add new site" -> "Import an existing project".
-3. Select this repository.
-4. Build command: `npm run build`
-5. Publish directory: `dist`
-6. Click **Deploy site**.
-
 ## Features Implemented
 
 - **Data Binding:** Hardcoded list of jobs populated via `/src/data/jobs.js`.
